@@ -221,6 +221,10 @@ footer .logo {
 	.nav-logo {
 		z-index: 2000;
 	}
+	header {
+		background-size: cover;
+		background-position: 50% 50%;
+	}
 	body {
 		width: 100vw;
 		font-size: 10px;
