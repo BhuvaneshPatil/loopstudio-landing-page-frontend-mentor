@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="./styles/style.css" />
+		<link
+			href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+			rel="stylesheet"
+		/>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+		<title>Frontend Mentor | Loopstudios landing page</title>
+
+		<!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+		<style>
+			.attribution {
+				font-size: 11px;
+				text-align: center;
+			}
+			.attribution a {
+				color: hsl(228, 45%, 44%);
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<div class="container">
+				<nav>
+					<div class="nav-logo">
+						<img src="./images/logo.svg" alt="" />
+					</div>
+					<div class="nav-toggle" id="ham-menu">
+						<img src="./images/icon-hamburger.svg" alt="" />
+					</div>
+					<div class="hide nav-toggle" id="close-menu">
+						<img src="./images/icon-close.svg" alt="" />
+					</div>
+					<ul class="nav-menu-desktop nav-menu-mobile">
+						<li>
+							<a href="#" class="nav-menu-desktop-link">About</a>
+						</li>
+						<li>
+							<a href="#" class="nav-menu-desktop-link"
+								>Careers</a
+							>
+						</li>
+						<li>
+							<a href="#" class="nav-menu-desktop-link">Events</a>
+						</li>
+						<li>
+							<a href="#" class="nav-menu-desktop-link"
+								>Products</a
+							>
+						</li>
+						<li>
+							<a href="#" class="nav-menu-desktop-link"
+								>Support</a
+							>
+						</li>
+					</ul>
+				</nav>
+				<div
+					class="hero-block"
+					data-aos="fade-right"
+					data-aos-duration="1000"
+				>
+					<div class="hero-block-heading">
+						IMMERSIVE EXPERIENCES THAT DELIVER
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="intro" class="section-margin">
+			<div class="row container">
+				<img
+					src="./images/desktop/image-interactive.jpg"
+					alt=""
+					data-aos="fade-right"
+					data-aos-duration="800"
+				/>
+				<div
+					class="intro-section-block"
+					data-aos="fade-left"
+					data-aos-duration="800"
+					data-aos-delay="500"
+				>
+					<h3>THE LEADER IN INTERACTIVE VR</h3>
+					<p>
+						Founded in 2011, Loopstudios has been producing
+						world-class virtual reality projects for some of the
+						best companies around the globe. Our award-winning
+						creations have transformed businesses through digital
+						experiences that bind to their brand.
+					</p>
+				</div>
+			</div>
+		</section>
+		<section id="creations" class="container">
+			<div class="row">
+				<h1 class="creations-heading">OUR CREATIONS</h1>
+				<button class="btn btn-outline btn-dark">SEE ALL</button>
+			</div>
+			<div class="image-grid">
+				<div
+					class="single-image single-image-desktop"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/desktop/image-deep-earth.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">Deep Earth</p>
+				</div>
+				<div
+					class="single-image single-image-mobile"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/mobile/image-deep-earth.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">Deep Earth</p>
+				</div>
+				<div
+					class="single-image single-image-desktop"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/desktop/image-night-arcade.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">Night Arcade</p>
+				</div>
+				<div
+					class="single-image single-image-mobile"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/mobile/image-night-arcade.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">night arcade</p>
+				</div>
+				<div
+					class="single-image single-image-desktop"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img src="./images/desktop/image-grid.jpg" alt="ggggg" />
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">soccer arcade</p>
+				</div>
+				<div
+					class="single-image single-image-mobile"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/mobile/image-soccer-team.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">soccer arcade</p>
+				</div>
+				<div
+					class="single-image single-image-desktop"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img src="./images/desktop/image-grid.jpg" alt="ggggg" />
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">The grid</p>
+				</div>
+				<div
+					class="single-image single-image-mobile"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img src="./images/mobile/image-grid.jpg" alt="ggggg" />
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">The grid</p>
+				</div>
+				<div
+					class="single-image single-image-desktop"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/desktop/image-from-above.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">from up above vr</p>
+				</div>
+				<div
+					class="single-image single-image-mobile"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/mobile/image-from-above.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">from up above vr</p>
+				</div>
+				<div
+					class="single-image single-image-desktop"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/desktop/image-pocket-borealis.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">pocket borealis</p>
+				</div>
+				<div
+					class="single-image single-image-mobile"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/mobile/image-pocket-borealis.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">pocket borealis</p>
+				</div>
+				<div
+					class="single-image single-image-desktop"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/desktop/image-curiosity.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">The Curiosity</p>
+				</div>
+				<div
+					class="single-image single-image-mobile"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img
+						src="./images/mobile/image-curiosity.jpg"
+						alt="ggggg"
+					/>
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">The Curiosity</p>
+				</div>
+				<div
+					class="single-image single-image-desktop"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img src="./images/desktop/image-fisheye.jpg" alt="ggggg" />
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">make it fisheye</p>
+				</div>
+				<div
+					class="single-image single-image-mobile"
+					data-aos="fade-down"
+					data-aos-duration="850"
+					data-aos-delay="0000"
+				>
+					<img src="./images/mobile/image-fisheye.jpg" alt="ggggg" />
+					<div class="overlay"></div>
+					<p class="single-image-overlay-text">make it fisheye</p>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="row container">
+				<div class="logo">
+					<img src="./images/logo.svg" alt="" />
+				</div>
+				<div class="row icon-row">
+					<img
+						class="footer-icon"
+						src="./images/icon-facebook.svg"
+						alt=""
+					/>
+					<img
+						class="footer-icon"
+						src="./images/icon-twitter.svg"
+						alt=""
+					/>
+					<img
+						class="footer-icon"
+						src="./images/icon-pinterest.svg"
+						alt=""
+					/>
+					<img
+						class="footer-icon"
+						src="./images/icon-instagram.svg"
+						alt=""
+					/>
+				</div>
+			</div>
+			<div class="row container" style="margin-top: 30px">
+				<ul class="row footer-menu">
+					<li>
+						<a href="#" class="nav-menu-desktop-link">About</a>
+					</li>
+					<li>
+						<a href="#" class="nav-menu-desktop-link">Careers</a>
+					</li>
+					<li>
+						<a href="#" class="nav-menu-desktop-link">Events</a>
+					</li>
+					<li>
+						<a href="#" class="nav-menu-desktop-link">Products</a>
+					</li>
+					<li>
+						<a href="#" class="nav-menu-desktop-link">Support</a>
+					</li>
+				</ul>
+				<div class="row icon-row" style="color: white">
+					&#169; 2021 Loopstudios. All rights reserved.
+				</div>
+			</div>
+		</footer>
+		<div class="end container">
+			About Careers Events Products Support Immersive experiences that
+			deliver The leader in interactive VR Founded in 2011, Loopstudios
+			has been producing world-class virtual reality projects for some of
+			the best companies around the globe. Our award-winning creations
+			have transformed businesses through digital experiences that bind to
+			their brand. Our creations See all Deep earth Night arcade Soccer
+			team VR The grid From up above VR Pocket borealis The curiosity Make
+			it fisheye About Careers Events Products Support © 2021 Loopstudios.
+			All rights reserved.
+
+			<div class="attribution">
+				Challenge by
+				<a
+					href="https://www.frontendmentor.io?ref=challenge"
+					target="_blank"
+					>Frontend Mentor</a
+				>. Coded by
+				<a
+					href="https://www.linkedin.com/in/bhuvanesh-patil-scoe"
+					target="_blank"
+					rel="noopener"
+					>Bhuvanesh S Patil</a
+				>.
+			</div>
+		</div>
+	</body>
+	<script src="./scripts/scripts.js"></script>
+	<script>
+		AOS.init({
+			offset: 150,
+			throttleDelay: 150,
+		});
+	</script>
+</html>
